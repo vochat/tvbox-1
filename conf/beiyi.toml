@@ -6,7 +6,7 @@ auth.token = "nas6110409"
 
 [transport]
 proxyURL = "socks5://127.0.0.1:9091"
-protocol = "tcp"
+protocol = "kcp"
 [transport.tls]
 enable = true
 [[proxies]]
